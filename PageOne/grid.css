@@ -1,0 +1,185 @@
+.grid{
+    display: grid;
+    grid-template-areas:
+    "header header header" 
+     "menu main main"
+     "footer footer footer";
+     background-color: rgb(0, 0, 0);
+     color: aliceblue;
+
+     
+    
+     
+    
+    
+}
+.Header{
+    grid-area: header;
+    background-color: #6f6969;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin: -15px;
+    margin-left: 0;
+ 
+   
+   
+    
+     
+    
+    
+    
+    
+   
+    
+    
+    
+    
+}
+.Menu{
+    grid-area: menu;
+    background-color: #D3D3D3;
+    padding: 70px;
+    position: fixed;
+    top:89.5px;
+    bottom: 50px;
+    background-image: url("/PageOne/slika/nole1ball.jpg");
+
+  
+   
+   
+    
+
+   
+    
+     
+     
+   
+   
+    
+    
+    
+  
+
+ 
+     
+}
+
+.Main{
+    grid-area: main;
+    background-color: #D3D3D3;
+    text-align: center;
+    padding-left: 300px;
+    background-image: url("/PageOne/slika/nole.jpg");
+    
+    
+   
+    
+    
+    
+    
+}
+.footer{
+    grid-area: footer;
+    background-color: #878484;
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin: -35px;
+    margin-left: 0;
+    
+    
+    
+    
+    
+}
+div{
+    border: solid 1px rgb(78, 74, 74);
+    
+    
+}
+body {
+    margin: 0;
+    
+  }
+#foo1{
+    padding: -20px;
+    
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+span{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    color: black;
+   
+    
+    
+}
+
+article {
+    text-align:left;
+    padding: 50px;
+    color: black;
+    margin: 100px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px#8181815a ;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px; 
+   
+    
+}
+#hom:hover{
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-palette-generators.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+
+#nole:hover{
+    background-image: url("https://miuc.org/wp-content/uploads/2018/02/How-can-colours-help-you-in-your-everyday-life.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    
+   
+}
+#noleTe{
+    padding-left: 400px;
+    padding-top: 10px ;
+    margin-top: -230px;
+    
+}
+a:hover{
+    background-image: url("https://images.unsplash.com/photo-1615714464931-34de72a96aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
